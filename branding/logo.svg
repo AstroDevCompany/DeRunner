@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="mint" x1="270" y1="240" x2="790" y2="790" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#D3FCE8"/>
+      <stop offset="0.35" stop-color="#6BEDB7"/>
+      <stop offset="0.72" stop-color="#18BC82"/>
+      <stop offset="1" stop-color="#0A8860"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="145%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#0B6B4D" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+  <!-- Fused DR monogram: one shared stem; the D's bowl wraps the R and the R's leg lands on the D's curve. -->
+  <g filter="url(#glow)" fill="none" stroke="url(#mint)" stroke-width="78" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 298 250 V 774"/>
+    <path d="M 298 250 H 500 C 682 250 792 362 792 512 C 792 662 682 774 500 774 H 298"/>
+    <path d="M 298 428 H 478 C 566 428 618 466 618 512 C 618 558 566 596 478 596 H 298"/>
+    <path d="M 492 596 L 693 712"/>
+  </g>
+</svg>

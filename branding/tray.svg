@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Template glyph for the macOS menu bar: black on transparent. Same DR monogram, heavier strokes. -->
+  <g fill="none" stroke="#000" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 17 12 V 52"/>
+    <path d="M 17 12 H 32 C 46 12 54 21 54 32 C 54 43 46 52 32 52 H 17"/>
+    <path d="M 17 27 H 31 C 38 27 41 30 41 32 C 41 34 38 38 31 38 H 17"/>
+    <path d="M 30 38 L 45 46.5"/>
+  </g>
+</svg>
