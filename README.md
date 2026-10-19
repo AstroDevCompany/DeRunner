@@ -18,7 +18,9 @@ A fast, frosted-glass process manager that shows you what is eating your CPU, me
 
 ---
 
-<img align="center" src="public/Screenshot.jpeg" alt="DeRunner" width="464" height="304" />
+<div align="center">
+<img src="public/Screenshot.jpeg" alt="DeRunner" width="464" height="304" />
+</div>
 
 ## Why DeRunner?
 
