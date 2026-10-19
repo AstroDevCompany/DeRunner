@@ -18,6 +18,8 @@ A fast, frosted-glass process manager that shows you what is eating your CPU, me
 
 ---
 
+<img src="/Screenshot.jpeg" alt="DeRunner" width="464" height="304" />
+
 ## Why DeRunner?
 
 Your fan spins up. Your laptop gets hot. Something is slow and you have no idea what. The built-in tools show you a wall of cryptic names, and they leave the detective work to you.
@@ -33,36 +35,45 @@ It stays out of your way, sips resources when you are not looking, and sits quie
 ## What you can do
 
 ### Find the culprit in seconds
+
 Every running process with live CPU, memory, disk and network use. Type to search, press `⌘K` to jump anywhere, and switch between a flat list, a **tree** (parents and their children, with totals rolled up) and an **Apps** view that groups all those mystery helper processes under the app they belong to. It stays smooth even with over a thousand processes running.
 
 ### Understand anything
+
 Click a process to open the **Inspector**: where it lives on disk, how it was launched, what it is connected to, which files it has open, whether it is code-signed and notarized, and a live history of its CPU, memory, disk and network. Secrets in command lines are masked automatically.
 
 ### Never miss the signal
+
 Usage is always shown with **colour, shape and a number**, so it is readable for everyone, including people with colour blindness.
 
-| Level | Meaning |
-|---|---|
-| Normal | Under 70% |
-| High ▲ | 70 to 90% |
-| Critical ◆ | Over 90% |
+| Level      | Meaning   |
+| ---------- | --------- |
+| Normal     | Under 70% |
+| High ▲     | 70 to 90% |
+| Critical ◆ | Over 90%  |
 
 ### Stay in control
+
 Quit a process politely or force it. Take down a whole process tree. Pause an app that is hogging the machine and resume it later. Relaunch, bring a window to the front, or change priority. A **protected-process guard** keeps you from accidentally killing something your system needs.
 
 ### Get warned about odd behaviour
-DeRunner watches for the things that actually matter: sustained heavy load, sudden CPU spikes, memory that keeps climbing, runaway threads, bursts of new processes, strange install locations and zombies. Every alert comes with an explanation of *why* it was flagged. It never labels anything "malware", and you can dismiss or allowlist anything you trust.
+
+DeRunner watches for the things that actually matter: sustained heavy load, sudden CPU spikes, memory that keeps climbing, runaway threads, bursts of new processes, strange install locations and zombies. Every alert comes with an explanation of _why_ it was flagged. It never labels anything "malware", and you can dismiss or allowlist anything you trust.
 
 ### Record what happens
+
 Start a **tracking session** on any process, manually or for a set time (1, 5, 10 minutes or your own). DeRunner records its behaviour in detail, including child processes starting and stopping, pauses, priority changes and anomalies, then hands you a clear report you can export as Markdown.
 
 ### Automate your priorities
+
 Set a **priority rule** once ("always run this renderer at low priority") and DeRunner reapplies it every time the app launches. Wildcards and patterns are supported.
 
 ### See what is listening
+
 The **Ports** view shows every open network port and exactly which app opened it.
 
 ### Ask an assistant
+
 Want a second opinion? Ask the built-in **AI assistant** about what you are seeing. You choose the brain:
 
 **Ollama** and **LM Studio** (fully local) · **OpenAI** · **Anthropic** · **OpenRouter**
@@ -70,9 +81,11 @@ Want a second opinion? Ask the built-in **AI assistant** about what you are seei
 The assistant is entirely optional.
 
 ### Lives in your menu bar
+
 A tray icon with live CPU next to it. From there you can open the app, pause monitoring, stop tracking, check for updates, or quit. Add **launch at login** and it is always there when you need it.
 
 ### Looks the part
+
 Frosted-glass design with light, dark and system themes. If you prefer solid surfaces or want the lowest possible GPU use, switch on **Reduce transparency**.
 
 ## Your privacy comes first
@@ -99,13 +112,13 @@ Once released, DeRunner checks for updates once a day (you can turn this off) an
 
 ### Platform support
 
-| | macOS | Windows | Linux |
-|---|:---:|:---:|:---:|
-| Status | **Primary** | Experimental | Experimental |
-| CPU, memory, disk per process | ✓ | ✓ | ✓ |
-| Network per process | ✓ | System totals | System totals |
-| Suspend, resume, priority | ✓ | ✓ | ✓ |
-| Code signature check | ✓ | ✓ | Package owner |
+|                               |    macOS    |    Windows    |     Linux     |
+| ----------------------------- | :---------: | :-----------: | :-----------: |
+| Status                        | **Primary** | Experimental  | Experimental  |
+| CPU, memory, disk per process |      ✓      |       ✓       |       ✓       |
+| Network per process           |      ✓      | System totals | System totals |
+| Suspend, resume, priority     |      ✓      |       ✓       |       ✓       |
+| Code signature check          |      ✓      |       ✓       | Package owner |
 
 DeRunner is built and tested on macOS. Windows and Linux support is written and shares the same engine, but has not yet been tested on those systems, so expect rough edges.
 
